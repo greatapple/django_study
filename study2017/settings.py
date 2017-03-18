@@ -77,13 +77,14 @@ WSGI_APPLICATION = 'study2017.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'study2017',
         'USER': 'jio',
         'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '',
     }
+
 }
 
 
